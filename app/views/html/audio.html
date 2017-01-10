@@ -1,0 +1,48 @@
+<section class="container">
+	<div class="panel panel-info" id="accordion">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#addaudio">Добавить дорожки</a>
+	      </h4>
+		</div>
+		<div class="panel-collapse collapse" id="addaudio">
+			<main class="panel-body">
+
+			<form action="" method="post" enctype="multipart/form-data" class="audio-upload">
+			<h3 class="text-primary">Загрузка аудиофайлов</h3>
+			<aside class="error"></aside>
+			<section class="audio-test">
+			<label>Название</label>
+			<aside class="input-group">
+				<input type="text" class="audio-test__name form-control">
+			</aside>
+			<label>Автор</label>
+			<aside class="input-group">
+				<input type="text" class="audio-test__author form-control">
+			</aside>
+			<aside class="audio-test__audio mar-top">
+				<aside class="audio-test__control">
+					<button class="btn btn-primary btn-xs audio-test__control_play" type="button">
+					<i class="fa fa-play"></i>
+				</button>
+				</aside>
+				
+				<div class="audio-test__duration text-muted">0:00</div>
+				<div class="progress-audio mar-top">
+				<div class="audio-test__current-time">0:00</div>
+					<div class="bar-audio"></div>
+				</div>
+			</aside>
+			<aside class="btn-group mar-top">
+				<button class="btn btn-primary audio-test__save"type="button">Сохранить</button>
+			<button class="btn btn-primary audio-test__cancel"type="button">Отмена</button>
+			</aside>
+			</section>
+			<button class="btn btn-primary audio-upload__btn" type="button">Выбрать файл</button>
+			<input type="file" class="audio-upload__file">
+			</form>
+			</main>
+		</div>
+	</div>
+	</script>
+</section>

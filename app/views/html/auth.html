@@ -1,0 +1,37 @@
+<header class="navbar navbar-default navbar-static-top">
+	<div class="container">
+		<nav class="navbar-header">
+			<span class="navbar-brand">Club Records</span>
+		</nav>
+	</div>
+</header>
+<section class="container">
+	<form class="auth" action="." method="post">
+	<input type="hidden" name="redirect" value="<?=$redirect ?>">
+	<section class="error">
+		<aside class="alert-error alert alert-danger">
+		<strong>Неправильный логин или пароль</strong>
+		</aside>
+	</section>
+	<label for="login">Ваш логин</label>
+	<aside class="input-group">
+		<span class="input-group-addon">
+			<i class="fa fa-envelope"></i>
+		</span>
+		<input type="text" name="login" placeholder="Логин" maxlength="20" class="form-control" autofocus>
+	</aside>
+	<label for="pass">Пароль</label>
+	<aside class="input-group">
+		<span class="input-group-addon">
+			<i class="fa fa-key"></i>
+		</span>
+		<input type="password" name="pass" placeholder="********" maxlength="20" class="form-control">
+	</aside>
+	<aside class="pull-right"><a href="">Забыли пароль ?</a></aside>
+	<aside class="btn-group">
+		<button class="btn btn-primary btn-lg mar-top" type="submit">
+			Войти
+		</button>
+	</aside>
+</form>
+</section>

@@ -1,0 +1,37 @@
+<section class="container">
+  <div class="panel-group" id="accordion">
+  <!-- 1 панель -->
+  <div class="panel panel-info">
+    <!-- Заголовок 1 панели -->
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#changepass">Сменить пароль</a>
+      </h4>
+    </div>
+    <div id="changepass" class="panel-collapse collapse">
+      <div class="panel-body">
+      <aside class="error"></aside>
+      <form action="" method="" class="changepass">
+      <label for="pass">Старый пароль: </label>
+      <aside class="input-group">
+      <span class="input-group-addon"><i class="fa fa-key"></i></span>
+        <input class="form-control" type="password" name="oldpass" placeholder="********" maxlength="20">
+      </aside>
+      <label for="pass">Новый пароль: </label>
+      <aside class="input-group">
+      <span class="input-group-addon"><i class="fa fa-edit"></i></span>
+        <input class="form-control" type="password" name="newpass" placeholder="********" maxlength="20">
+      </aside>
+      <div class="input-group  mar-top ">
+        <div class="input-group-addon">Показать пароль: </div>
+        <input type="checkbox" class="showpass">
+      </div>
+      <aside class="btn-group">
+        <button class="btn btn-primary mar-top" type="submit">Сменить</button>
+      </aside>
+      </form>
+      </div>
+     </div>
+  </div>
+</div>
+</section>

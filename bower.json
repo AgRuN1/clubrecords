@@ -1,0 +1,24 @@
+{
+  "name": "audioplayer",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Gregory <grigoriy6667@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "modernizr": "2.8.3",
+    "normalize-css": "normalize.css#^5.0.0",
+    "bootstrap-checkbox": "^1.4.0"
+  }
+}
