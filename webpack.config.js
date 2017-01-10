@@ -6,7 +6,8 @@ module.exports = {
 		main: './main.js',
 		checkAuth: './checkAuth.js',
 		settings: './settings.js',
-		'addaudio':'./addaudio.js'
+		addaudio:'./addaudio.js',
+		profile: './profile.js'
 	},
 	output: {
 		path: __dirname+'/app/js',

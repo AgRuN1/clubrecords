@@ -5,6 +5,7 @@ class User{
 	private $login;
 	private $password;
 	private $user;
+	private $grants;
 	function getUserById($id){
 		$result = $this->user->select('id='.$id);
 		if($result === false)
@@ -13,10 +14,14 @@ class User{
 		$this->name = $row['name'];
 		$this->login = $row['login'];
 		$this->password = $row['password'];
+		$this->grants = $row['grants'];
 		return true;
 	}
 	function getPassword(){
 		return $this->password;
+	}
+	function getGrants(){
+		return $this->grants;
 	}
 	function getName(){
 		return $this->name;

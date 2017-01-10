@@ -37,7 +37,7 @@ var PlayerPrototype = {
 	playMusic: function(){
 		this.timer = setInterval(this.showTime.bind(this),1000);
 		this.music.audio.play();
-		this.duration.text(this.getUserTime(this.music.audio.currentTime));
+		// this.duration.text(this.getUserTime(this.music.audio.currentTime));
 	},
 	showTime: function(){
 		var time = this.music.duration - this.music.audio.currentTime;

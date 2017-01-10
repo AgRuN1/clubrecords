@@ -1,3 +1,10 @@
+.navbar-brand{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5em;
+}
+body{
+	font-family: 'Cuprum', sans-serif;
+}
 .mar-top{
 	margin-top: 5px;
 }
